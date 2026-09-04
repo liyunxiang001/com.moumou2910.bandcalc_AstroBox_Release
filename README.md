@@ -35,9 +35,6 @@
 多功能计算器/
 ├── dist/                        # 打包产物（.rpk）
 │   └── com.moumou2910.bandcalc.release.1.0.0.rpk
-├── sign/                        # 发布签名证书（勿改动、勿丢失）
-│   ├── certificate.pem
-│   └── private.pem
 ├── src/
 │   ├── app.ux                   # 应用入口（读取设备屏幕形状）
 │   ├── manifest.json            # 应用配置（包名、路由、feature）
@@ -99,7 +96,6 @@ npm run release   # release 包（正式签名）
 
 ## ⚠️ 注意事项
 
-- **签名证书**：`sign/` 下的 `certificate.pem` 与 `private.pem` 是发布签名，务必妥善备份；每次 release 打包用**同一套**证书，否则可能无法上架/更新。
 - **包名**：`com.moumou2910.bandcalc` 一旦发布/大量设备安装后**不要再改**，否则会被视为全新应用。
 - **图标**：替换 `src/resources/base/media/logo.png`（推荐 192×192 PNG），改后需重新打包。
 - **科学函数角度制**：`sin/cos/tan` 按角度计算，`sin 30 = 0.5`。
@@ -113,5 +109,5 @@ npm run release   # release 包（正式签名）
 - 结果保留小数位数设置
 - 十进制 / 二进制 / 十六进制输入切换
 
-#本项目由AI编写
-#本README由AI编写
+# 本项目由AI编写
+# 本README由AI编写
