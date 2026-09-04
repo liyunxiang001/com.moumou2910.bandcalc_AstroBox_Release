@@ -1,0 +1,33 @@
+{
+  "item": {
+    "id": "com.moumou2910.bandcalc",
+    "restype": "quick_app",
+    "name": "多功能计算器",
+    "description": "多功能计算器是一款运行于小米手环pro系列上的科学计算工具。它采用简洁的双页布局：标准页覆盖日常四则运算，科学+位运算页集成三角函数、对数、根号、幂以及完整的位运算能力。用户可左右滑动在两页键盘间自由切换，配合结果区直观的二进制/十六进制对照，无论是算一道普通算术，还是进行位级运算、进制转换，都能轻松完成。应用内置设置项，支持按需开启或关闭进制对照显示，并自动记住你的偏好。上手简单，一学就会，是手环上随时随地可用的轻量计算利器。（本应用完全由Deepseek-V4-flash开发）",
+    "preview": [
+      "src/resources/base/media/ScreenShot_2026-09-04_153130_540.png",
+      "src/resources/base/media/ScreenShot_2026-09-04_153139_012.png",
+      "src/resources/base/media/ScreenShot_2026-09-04_153114_031.png"
+    ],
+    "icon": "src/resources/base/media/logo.png",
+    "cover": "src/resources/base/media/封面.png",
+    "author": [
+      {
+        "name": "某某2910",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "dist/com.moumou2910.bandcalc.debug.1.0.0.rpk"
+    },
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "dist/com.moumou2910.bandcalc.debug.1.0.0.rpk"
+    }
+  },
+  "ext": {}
+}
